@@ -88,6 +88,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           });
       });
     </script>
+  
+  
+  <div>This is where the view_items_list form would go</div>
+         <button id="view_items_list">View items</button>
+        <script>
+        document.getElementById("view_items_list").addEventListener("click", function () {
+        gtag("event", "view_items_list", {
+          
+         
+          item_id: "ITM_12345",
+          item_name: "Python",
+          affiliation: "online_Course",
+          currency: "INR",
+          discount: 100,
+          item_brand: "MOOC",
+          item_category: "Python",
+          item_category2: "ML",
+          item_category3: "DS",
+          item_category4: "CS",
+          item_variant: "Online",
+          location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+          price: 5000,
+          quantity: 1
+          });
+      });
+    </script>
+  
       
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6PJTWH"
